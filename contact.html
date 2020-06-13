@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <meta
+      name="description"
+      content="Bem vindo ao hotel mais extraordinário da minha cabeça."
+    />
+    <meta name="keywords" contents="hotel, califórnia, testes, aprendizado" />
+    <script
+      src="https://kit.fontawesome.com/f4cb4196de.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./css/mobile.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">HC.</a></h1>
+          <ul>
+            <li><a href="index.html">Hotel</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a class="current" href="contact.html">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading">
+          <span class="text-primary">Entre</span> em contato
+        </h1>
+        <p>
+          Preencha o formulário abaixo para entrar em contato conosco
+        </p>
+        <form action="processo.php">
+          <div class="form-group">
+            <label for="nime">Nome</label>
+            <input type="text" id="nome" name="nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesagem</label>
+            <textarea type="text" id="message" name="message"></textarea>
+          </div>
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Onde estamos</h3>
+          <p>
+            Rua Fulano de tal, 71 <br />
+            Cidade, UF
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Telefone</h3>
+          <p>
+            (xx) 9999-9999
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>E-mail</h3>
+          <p>
+            recepção@hotelhc.com
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>Hotel HC. &copy; 2020, Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>
